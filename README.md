@@ -18,9 +18,22 @@ The final result has been deployed in MongoDB Realm Static Hosting.
 
 https://react-charts-npwaa-qynhm.mongodbstitch.com/
 
+to fix build problem
+"TypeError: MiniCssExtractPlugin is not a constructor"
+
+https://stackoverflow.com/questions/70715794/typeerror-minicssextractplugin-is-not-a-constructor
+
+https://github.com/facebook/create-react-app/issues/11930
+
+```java
+npm i -D --save-exact mini-css-extract-plugin@2.4.5
+
+rm -rf package-lock.json && rm -rf node_modules && npm cache clean --force && npm install
+```
+
 # Start the Beast
 
-```shell
+```java
 npm install
 npm start
 ```
