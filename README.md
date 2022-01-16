@@ -52,7 +52,7 @@ To add some spice in the mix, we will use our list of countries to create a dyna
 
 You can see the final result here that I hosted in a MongoDB Realm application using the static hosting feature available.
 
-### Final website
+![Final website](https://user-images.githubusercontent.com/3156358/149651964-13790efa-4813-4f8e-bebe-b3b9cc25f6c6.png)
 
 ## Prerequisites
 The code of this project is available on GitHub in this repository.
@@ -91,15 +91,14 @@ If you want to use the same data as me, check out this blog post about the Open 
 
 As you can see in the dashboard, my charts are not filtered by country here. You can find the data of all the countries in the four charts I created.
 
-### Enable the Filtering and the Embedding
+![Enable the Filtering and the Embedding](https://user-images.githubusercontent.com/3156358/149651949-b445a017-bca4-4f37-8210-2bdfcb1a1018.png)
 
 To enable the filtering when I'm embedding my charts in my website, I must tell MongoDB Charts which field(s) I will be able to filter by, based on the fields available in my collection. Here, I chose to filter by a single field, country, and I chose to enable the unauthenticated access for this public blog post (see below).
 
-### Embed menu in MongoDB Charts
-
+![Embed menu in MongoDB Charts](https://user-images.githubusercontent.com/3156358/149651934-8c75cc8e-48b2-4c3b-8318-e7c2a00e7147.png)
 In the User Specified Filters field, I added country and chose to use the JavaScript SDK option instead of the iFrame alternative that is less convenient to use for a React website with dynamic filters.
 
-Embedding Menu in my Charts
+![Embedding Menu in my Charts](https://user-images.githubusercontent.com/3156358/149651899-ec430bd5-1a2e-4094-8fa6-5067ae294c3b.png)
 
 For each of the four charts, I need to retrieve the Charts Base URL (unique for a dashboard) and the Charts IDs.
 
